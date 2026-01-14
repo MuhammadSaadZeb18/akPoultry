@@ -10,23 +10,23 @@ const Index = () => {
   return (
     <main className="min-h-screen relative">
       {/* Floating Hens - Parallax Animation */}
-      <FloatingHens />
-      
+      {/* <FloatingHens /> */}
+
       {/* Hero Section */}
       <HeroSection />
-      
+
       {/* Doctor Profile Section */}
       <DoctorProfile />
-      
+
       {/* Services Section */}
       <ServicesSection />
-      
+
       {/* Stats/Team Section */}
       <StatsSection />
-      
+
       {/* Contact Section */}
       <ContactSection />
-      
+
       {/* Footer */}
       <Footer />
     </main>

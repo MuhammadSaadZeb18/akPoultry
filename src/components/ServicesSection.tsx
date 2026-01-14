@@ -59,7 +59,7 @@ const ServicesSection = () => {
       variants={container}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: false, amount: 0.2 }}
     >
       {/* Background accents */}
       <div className="absolute top-40 right-0 w-64 h-64 rounded-full bg-gold/5 blur-3xl" />
