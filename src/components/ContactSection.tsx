@@ -30,7 +30,7 @@ const ContactSection = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (sectionRef.current) {
@@ -134,7 +134,7 @@ const ContactSection = () => {
 
               <a
                 href="tel:+919876543210"
-                className="btn-gold text-lg hover:scale-105 transition-transform duration-300"
+                className="btn-gold text-lg hover:scale-105  rounded-full hover:rounded-none transition-all duration-200"
               >
                 +91 98765 43210
               </a>
@@ -144,7 +144,7 @@ const ContactSection = () => {
                 href="https://wa.me/919876543210"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-all duration-300 glass-enhanced px-4 py-2 rounded-full hover-glow"
+                className="mt-4 inline-flex items-center gap-2 text-primary-foreground/80 hover:text-gold  glass-enhanced px-4 py-2 rounded-full hover:rounded-none transition-all"
               >
                 <svg
                   className="w-5 h-5"

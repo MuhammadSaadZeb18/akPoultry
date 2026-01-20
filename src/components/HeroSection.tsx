@@ -64,9 +64,7 @@ const HeroSection = () => {
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
           Science-Driven <br />
-          <span className="text-gold">
-            Poultry Health & Profit Growth
-          </span>
+          <span className="text-gold">Poultry Health & Profit Growth</span>
         </h1>
 
         {/* Description */}
@@ -82,11 +80,10 @@ const HeroSection = () => {
           <motion.a
             href="#contact"
             whileHover={{
-              scale: 1.08,
               boxShadow: "0 20px 40px rgba(212,175,55,0.4)",
             }}
             whileTap={{ scale: 0.95 }}
-            className="group inline-flex items-center gap-2 px-10 py-4 bg-gold text-black font-semibold rounded-xl transition"
+            className="group inline-flex items-center gap-2 px-10 py-4 bg-gold text-black hover:text-white font-semibold rounded-full hover:rounded-none transition-all duration-200"
           >
             <Phone size={18} />
             Book Consultation
@@ -100,10 +97,9 @@ const HeroSection = () => {
           <motion.a
             href="#services"
             whileHover={{
-              scale: 1.05,
               backgroundColor: "rgba(255,255,255,0.08)",
             }}
-            className="inline-flex items-center gap-2 px-10 py-4 border border-white/30 text-white rounded-xl backdrop-blur transition"
+            className="inline-flex items-center gap-2 px-10 py-4 border border-white/30 text-white  backdrop-blur  rounded-full hover:rounded-none transition-all duration-300"
           >
             View Services
           </motion.a>
