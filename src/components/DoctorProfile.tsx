@@ -110,7 +110,7 @@ const DoctorProfile = () => {
           </motion.p>
 
           {/* Tags */}
-          <motion.div variants={fadeUp} className="flex flex-wrap gap-3">
+          <motion.div variants={fadeUp} className="flex flex-wrap gap-3 ">
             {[
               "Poultry Health",
               "Disease Prevention",
@@ -120,7 +120,7 @@ const DoctorProfile = () => {
             ].map((tag) => (
               <span
                 key={tag}
-                className="px-4 py-2  border border-forest/15 text-forest text-sm font-medium hover:bg-forest/5 rounded-full hover:rounded-none transition-all duration-300 hover:scale-110 cursor-pointer"
+                className="px-4 py-2 hover:animate-bounce  border border-forest/15 text-forest text-sm font-medium hover:bg-forest/5 rounded-md transition-all duration-300 hover:scale-110 cursor-pointer"
               >
                 {tag}
               </span>

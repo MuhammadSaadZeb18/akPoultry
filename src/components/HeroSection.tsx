@@ -18,7 +18,7 @@ const HeroSection = () => {
     <section
       ref={ref}
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden text-center"
+      className="relative min-h-screen pb-[4rem] flex items-center justify-center overflow-hidden text-center"
     >
       {/* Background */}
       <motion.div
@@ -50,13 +50,13 @@ const HeroSection = () => {
         className="relative z-10 max-w-3xl px-6"
       >
         {/* Logo */}
-        <div className="flex justify-center items-center gap-3 mb-8">
+        <div className="flex flex-col justify-center items-center gap-3 mb-4">
           <img
             src={logo}
             alt="AK Poultry Consultant"
-            className="w-14 h-14 rounded-xl bg-white/10 p-2"
+            className="w-40 h-40 object-contain rounded-xl bg-white/10 p-2 animate-bounce"
           />
-          <span className="text-gold font-semibold tracking-wide">
+          <span className="text-gold  font-semibold tracking-wide ">
             AK Poultry Consultant
           </span>
         </div>
@@ -83,7 +83,7 @@ const HeroSection = () => {
               boxShadow: "0 20px 40px rgba(212,175,55,0.4)",
             }}
             whileTap={{ scale: 0.95 }}
-            className="group inline-flex items-center gap-2 px-10 py-4 bg-gold text-black hover:text-white font-semibold rounded-full hover:rounded-none transition-all duration-200"
+            className="group inline-flex items-center gap-2 px-10 py-4 bg-gold text-black hover:animate-bounce font-semibold rounded-full  transition-all duration-200"
           >
             <Phone size={18} />
             Book Consultation
@@ -99,7 +99,7 @@ const HeroSection = () => {
             whileHover={{
               backgroundColor: "rgba(255,255,255,0.08)",
             }}
-            className="inline-flex items-center gap-2 px-10 py-4 border border-white/30 text-white  backdrop-blur  rounded-full hover:rounded-none transition-all duration-300"
+            className="inline-flex items-center gap-2 px-10 py-4 border border-white/30 text-white  backdrop-blur  rounded-full hover:animate-bounce transition-all duration-300"
           >
             View Services
           </motion.a>

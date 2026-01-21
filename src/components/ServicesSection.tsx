@@ -77,7 +77,7 @@ const ServicesSection = () => {
 
           <motion.h2
             variants={fadeUp}
-            className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-forest mb-4"
+            className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-forest mb-4 "
           >
             Professional Services
           </motion.h2>
