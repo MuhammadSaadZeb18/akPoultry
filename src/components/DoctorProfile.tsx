@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import doctorImage from "@/assets/doctor-profile.jpg";
 
 const fadeLeft = {
-  hidden: { opacity: 0, x: -40 },
+  hidden: { opacity: 0, x: 0 },
   show: {
     opacity: 1,
     x: 0,
@@ -11,7 +11,7 @@ const fadeLeft = {
 };
 
 const fadeRight = {
-  hidden: { opacity: 0, x: 40 },
+  hidden: { opacity: 0, x: 0 },
   show: {
     opacity: 1,
     x: 0,
